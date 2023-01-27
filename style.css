@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+/* Your CSS below here */
+
+.box{
+  inline-size: 200px;
+  margin: auto;
+  border-radius: 8px;
+  border: 1px solid rgb(142, 5, 27);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, .0), rgba(0, 0, 0, 0.2) 30%);
+  background-color: red;
+  box-shadow: inset 3px 3px 8px white, inset -3px -3px 8px black, 3px  3px 8px black;
+}
+
+.box p{
+  text-align: center;
+  margin: 0;
+  line-height: 200px;
+  /* the font size is calculated with the root font size,
+  being 10 x 1.8 = 18px  */
+  font-size: 18px;
+  color: white;
+  text-shadow: 1.5px 1.5px 1.5px black;
+}
